@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #e91e63;
+    font-size: 22px;
+}
+
+.box {
+    border: 2px solid #f8a8b8;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: left;
+    position: relative;
+}
+
+.box-label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.discount {
+    background: #ff4d79;
+    color: white;
+    padding: 2px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.price {
+    font-size: 14px;
+}
+
+.popular-badge {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background: #ff4d79;
+    color: white;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.extra-content {
+    display: none;
+    padding: 10px;
+    background: #fff5f7;
+    border-top: 1px solid #f8a8b8;
+    margin-top: 10px;
+}
+
+.extra-content table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.extra-content select {
+    width: 100%;
+    padding: 5px;
+}
+
+.free-delivery {
+    font-size: 14px;
+    color: #e91e63;
+    margin: 10px 0;
+}
+
+.total-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background: #ff4d79;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}

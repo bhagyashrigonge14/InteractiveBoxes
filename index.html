@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>YAY! It's BOGO</h2>
+
+        <!-- 1 Unit Option -->
+        <div class="box" id="box-1">
+            <label class="box-label">
+                <input type="radio" name="unit" onclick="toggleSelection(1)">
+                <span class="unit-text"><b>1 Unit</b></span>
+                <span class="discount">10% Off</span>
+                <span class="price"><b>$10.00 USD</b> <s>$24.00 USD</s></span>
+            </label>
+            <div class="extra-content" id="content-1">
+                <p>Standard Price</p>
+            </div>
+        </div>
+
+        <!-- 2 Unit Option (Most Popular) -->
+        <div class="box" id="box-2">
+            <div class="popular-badge">MOST POPULAR</div>
+            <label class="box-label">
+                <input type="radio" name="unit" onclick="toggleSelection(2)">
+                <span class="unit-text"><b>2 Unit</b></span>
+                <span class="discount">20% Off</span>
+                <span class="price"><b>$18.00 USD</b> <s>$24.00 USD</s></span>
+            </label>
+            <div class="extra-content" id="content-2">
+                <table>
+                    <tr>
+                        <th>Size</th>
+                        <th>Colour</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- 3 Unit Option -->
+        <div class="box" id="box-3">
+            <label class="box-label">
+                <input type="radio" name="unit" onclick="toggleSelection(3)">
+                <span class="unit-text"><b>3 Unit</b></span>
+                <span class="discount">30% Off</span>
+                <span class="price"><b>$24.00 USD</b> <s>$24.00 USD</s></span>
+            </label>
+            <div class="extra-content" id="content-3">
+                <p>Best Deal</p>
+            </div>
+        </div>
+
+        <p class="free-delivery">Free Delivery</p>
+        <p class="total-price">Total: <b id="total-price">$10.00 USD</b></p>
+
+        <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
